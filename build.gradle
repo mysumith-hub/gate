@@ -47,6 +47,7 @@ allprojects {
   dependencies {
     compileOnly spinnaker.dependency("lombok")
     spinnaker.group('test')
+    compile "org.springframework.boot:spring-boot-starter-thymeleaf:1.5.20.RELEASE"
   }
 
   configurations.all {
